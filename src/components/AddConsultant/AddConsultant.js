@@ -22,7 +22,7 @@ const AddConsultant = () => {
         formData.append('name', info.name);
         formData.append('email', info.email);
 
-        fetch('http://localhost:5000/addAConsutant', {
+        fetch('https://boiling-dawn-30614.herokuapp.com/addAConsutant', {
             method: 'POST',
             body: formData
         })
